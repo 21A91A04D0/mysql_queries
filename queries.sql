@@ -1,0 +1,27 @@
+-- create database students
+-- create table details(
+-- studentid int primary key not null,
+-- studentname varchar(30) not null,
+-- studentmarks int not null
+-- );
+-- insert into details values(430,"sun",98)
+-- insert into details values(420,"moon",96)
+-- insert into details values(410,"earth",94)
+-- insert into details values(400,"jupyter",80)
+-- insert into details values(390,"siva",60)
+-- insert into details values(100,"maha",50)
+-- select studentmarks from details;
+-- select studentmarks as marks from details;
+-- select * from details where studentmarks > 90;
+-- select * from details where studentmarks >= 90;
+-- SELECT studentname from details where studentmarks > 90;
+-- SELECT studentname as names from details where studentmarks > 90;
+-- select studentname from details where studentmarks between 60 and 100;
+-- select studentmarks from details where studentname = "siva";
+-- select * from details
+-- select count(studentmarks) as strength from details
+-- select distinct studentname from details
+-- alter table details add studentgrade int;
+-- alter table details modify column studentgrade int;
+-- alter table details drop column studentgrade
+-- update details set studentname = "isro",studentmarks = 88 where studentid = 100;
